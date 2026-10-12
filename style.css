@@ -1,0 +1,15 @@
+:root{--midnight:#0A1A33;--panel:#12264A;--line:#22396A;--gold:#D4AF5A;--sky:#5EC8F2;--linen:#F4EFE4;--mist:#B8C3D6;--dim:#8FA3C2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--midnight);color:var(--linen);font:16px/1.6 "Manrope",system-ui,-apple-system,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px 64px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:28px}
+header img{width:56px;height:56px;border-radius:13px}
+header a{color:var(--linen);text-decoration:none;font:28px "DM Serif Display",Georgia,serif}
+h1{font:400 40px/1.15 "DM Serif Display",Georgia,serif;margin:0 0 12px}
+h2{font:400 24px "DM Serif Display",Georgia,serif;margin:32px 0 8px}
+p,li{color:var(--mist)}
+a{color:var(--gold)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:14px 0}
+.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:12px}
+nav{margin-top:40px;color:var(--dim);font-size:14px}
+nav a{margin-right:16px}
